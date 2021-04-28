@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0">
+<testcase classname="google search functionality" name="Write String in Google Search Textbox" time="0">
+<system-out><![CDATA[Given User navigates to Google Page.........................................skipped
+When User Enter String in search box of google "IBM"........................skipped
+Then The Results will Display "samplestring" , "samplestring 2".............skipped
+]]></system-out>
+</testcase>
+<testcase classname="google search functionality" name="Write String in Google Search Textbox 2" time="0">
+<system-out><![CDATA[Given User navigates to Google Page.........................................skipped
+When User Enter String in search box of google "IBM"........................skipped
+Then The Results will Display "samplestring" , "samplestring 2".............skipped
+]]></system-out>
+</testcase>
+</testsuite>

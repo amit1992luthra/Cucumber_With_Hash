@@ -1,0 +1,182 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Open the browser and navigate to the google page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User navigates to Google Page",
+            "match": {
+              "location": "StepDefination.user_navigates_to_Google_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Write String in Google Search Textbox",
+        "description": "",
+        "id": "google-search-functionality;write-string-in-google-search-textbox;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User Enter String in search box of google \"IBM\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "IBM",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefination.user_Enter_String_in_search_box_of_google(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "The Results will Display \"samplestring\" , \"samplestring 2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "samplestring",
+                  "offset": 26
+                },
+                {
+                  "val": "samplestring 2",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefination.the_Results_will_Display(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@smoke"
+          },
+          {
+            "line": 7,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Open the browser and navigate to the google page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User navigates to Google Page",
+            "match": {
+              "location": "StepDefination.user_navigates_to_Google_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Write String in Google Search Textbox",
+        "description": "",
+        "id": "google-search-functionality;write-string-in-google-search-textbox;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User Enter String in search box of google \"IBM\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "IBM",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefination.user_Enter_String_in_search_box_of_google(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "The Results will Display \"samplestring\" , \"samplestring 2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "samplestring",
+                  "offset": 26
+                },
+                {
+                  "val": "samplestring 2",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefination.the_Results_will_Display(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@smoke"
+          },
+          {
+            "line": 7,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "google search functionality",
+    "description": "",
+    "id": "google-search-functionality",
+    "keyword": "Feature",
+    "uri": "sdet.feature"
+  }
+]
